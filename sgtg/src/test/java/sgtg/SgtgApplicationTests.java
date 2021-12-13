@@ -1,10 +1,10 @@
-package com.example.demo;
+package sgtg;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringTrainingApplicationTests {
+class SgtgApplicationTests {
 
 	@Test
 	void contextLoads() {
