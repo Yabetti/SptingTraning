@@ -1,3 +1,4 @@
+ @@ -1,48 +0,0 @@
 # SptingTraning
 Spring boot × Gradle でサイト作成
 
