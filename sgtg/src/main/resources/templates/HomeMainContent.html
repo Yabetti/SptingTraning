@@ -10,14 +10,6 @@
 <script th:src="@{/webjars/bootstrap/5.1.3/js/bootstrap.bundle.min.js}"></script>
 </head>
 <body>
-	<!-- Page Content Holder -->
-	<div class="container-fluid" id="home_content">
-	
-		<nav class="navbar navbar-default" id="df_header" th:insert="LoginHeader">
-		</nav>
-		<div class="container" id="main-contents-flame">
-			<!-- Sidebar Holder -->
-			<div id="HomeSideMenu" th:insert="HomeSideMenu"></div>
 			<div class="container" id="main-contents">
 				<h2>DummyDummyDummy</h2>
 				<p>Dummy</p>
@@ -35,27 +27,7 @@
 				<p>Dummy</p>
 				<p>Dummy</p>
 			</div>
-		</div>
-		<div class="line"></div>
-	</div>
 <script type="text/javascript" th:inline="javascript">
-	//サイドメニュー画面表示切り替え
-	$(document).ready(function() {
-		$("#sidebarCollapse").on("click", function() {
-			$("#sidebar").toggleClass("active");
-			$(this).toggleClass("active");
-		});
-		
-		$("#toolList").on("click", function() {
-			$("#collapseToolList").toggleClass('show');
-		});
-	});
-	
-	$(window).on('load',function(){
-		$("#sidebar").toggleClass("active");
-		$("#sidebarCollapse").toggleClass("active");
-	});
-	
 </script>
 </body>
 </html>
