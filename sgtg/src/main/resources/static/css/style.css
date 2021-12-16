@@ -13,10 +13,17 @@
 	padding:0;
 }
 
+#header-contents{
+	display:flex;
+}
+
 /*************** ホーム画面 ***************/
+#HomeSideMenu{
+	background: #7386D5;
+}
 
 #login-btn{
-	text-align:right;
+	margin-left:auto;
 }
 
 #sidebar-nav {
