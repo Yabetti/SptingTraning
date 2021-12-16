@@ -11,14 +11,20 @@
 </head>
 <body>
 <div class="wrapper">
-	<!-- Sidebar Holder -->
-	<div id="parent" th:insert="HomeSideMenu">text</div>
+
 	<!-- Page Content Holder -->
 	<div class="container-fluid" id="home_content">
+	
 		<nav class="navbar navbar-default" id="df_header" th:insert="LoginHeader">
 		</nav>
+		<div class="container" id="body-contents">
+			<!-- Sidebar Holder -->
+			<div id="parent" th:insert="HomeSideMenu">text</div>
+			<div class="container" id="main-contents">
+				<h2>DummyDummyDummy</h2>
+			</div>
+		</div>
 
-		<h2>DummyDummyDummy</h2>
 
 		<div class="line"></div>
 	</div>
