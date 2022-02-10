@@ -1,0 +1,12 @@
+server:
+  port: 8080
+logging:
+  level:
+    root: INFO
+    com.example.dem: DEBUG
+  file.name: D:/work/logs/demo.log
+
+spring:  datasource:
+    url: jdbc:mysql://192.168.120.122:3306/CustomerData
+    username: xincor
+    :password: Admin789!
