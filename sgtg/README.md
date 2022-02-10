@@ -28,7 +28,12 @@ Spring boot × Gradle でサイト作成
 　th:include="sendMessage :: commonMessage"
  上記でcommonMessage.htmlを呼び出す。呼び出し元としては、sendMessageが属性となるので、#sendMessageとかで指定してJSで操作できる。
 　例えば、ボタン押下時にモーダル呼び出したり、同じデザインの画面のメインコンテンツのみ入れ替えたりできる。
-
+ ヘッダーとかテンプレートファイルを作成して、呼び出すことで使いまわせる。かつ、引数を渡せるのである程度の変更が可能。
+ また、記述した属性の小要素として追加される。
+　th:replace
+　要素ごと入れ分かる。
+　th:insert
+　includeと同様の結果
 ■Java
  ■Spring
 　　■アノテーション
@@ -44,6 +49,7 @@ Spring boot × Gradle でサイト作成
 　
 ～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
 □Spring構築(Gradle)
-
+　■Lombok
+　　@Dataのアノテーション付与すれば、DTOで型だけでgetter/setter利用できるようになる、便利なライブラリ
 
 

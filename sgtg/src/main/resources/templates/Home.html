@@ -12,12 +12,12 @@
 <body>
 	<!-- Page Content Holder -->
 	<div class="container-fluid" id="home_content">
-	
-		<nav class="navbar navbar-default" id="df_header" th:insert="LoginHeader">
+
+		<nav class="navbar navbar-default" id="df_header" th:include="LoginHeader">
 		</nav>
 		<div class="container" id="main-contents-flame">
 			<!-- Sidebar Holder -->
-			<div id="HomeSideMenu" th:insert="HomeSideMenu"></div>
+			<div id="HomeSideMenu" th:include="HomeSideMenu"></div>
 			<div class="container" id="main-contents">
 				<h2>DummyDummyDummy</h2>
 				<p>Dummy</p>
